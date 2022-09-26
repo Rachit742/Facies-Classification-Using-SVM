@@ -1,2 +1,2 @@
 # Facies Classifiaction Using ML
-Using support vector machine algorithm to assign facies to well log data. Training data has been assembled based on expert core description combined with wireline data from nine wells.
+A machine learning algorithm is run to predict facies from well log data. The dataset used is log data from nine wells that have been labeled with a facies type based on oberservation of core.The SVM algorithm uses the training data to fit an optimal hyperplane between the different classes (or facies, in our case). SVM implementation is done in scikit-learn.
